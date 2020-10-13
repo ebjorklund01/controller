@@ -19,12 +19,12 @@
   "main": "server.js",
   "dependencies": {
     "ejs": "*",
-    "express": "*",
-    "johnny-five": "*",
+    "express": "^4.17.1",
+    "johnny-five": "^2.0.0",
+    "mathjs": "^7.5.1",
     "minimist": "^1.2.0",
-    "socket.io": "*",
-    "ws": "*",
-    "mathjs": "*"
+    "socket.io": "^2.3.0",
+    "ws": "*"
   },
   "scripts": {
     "start": "node server.js"

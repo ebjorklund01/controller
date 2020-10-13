@@ -11,6 +11,7 @@ socket.on('client info?', function (data) {
   })
 })
 
+console.log("in calibrate")
 
 document.addEventListener("touchstart", start)
 //document.addEventListener("mousedown",  start)
